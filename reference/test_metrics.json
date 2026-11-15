@@ -1,0 +1,17 @@
+{
+  "model": "CRUNCH",
+  "threshold": 0.5,
+  "total_rows": 44,
+  "scored_rows": 44,
+  "coverage": 1.0,
+  "n": 44,
+  "grain_n": 32,
+  "silage_n": 12,
+  "macro_f1": 0.9393939393939394,
+  "balanced_accuracy": 0.9166666666666667,
+  "silage_f1": 0.9090909090909091,
+  "accuracy": 0.9545454545454546,
+  "auc": 0.953125,
+  "grain_to_silage": 0,
+  "silage_to_grain": 2
+}

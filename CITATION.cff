@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this software if you use CRUNCH or its released model."
+type: software
+title: "CRUNCH: Corn End-Use Recognition Using Normalized Indices, Change Points, and Harmonics"
+authors:
+  - family-names: LIU
+    given-names: TIANYANG
+  - family-names: CUI
+    given-names: BORAN
+version: 1.0.0
+date-released: 2026-11-15
+license: MIT
+abstract: "Field-year grain/silage corn recognition using routed event and peak-aligned features with second-order harmonics. MIT applies to team code and model weights; bundled third-party data retain upstream terms."
+keywords:
+  - corn
+  - silage
+  - remote sensing
+  - harmonic analysis
+  - time series classification

@@ -1,0 +1,13 @@
+{
+  "rebuilt_benchmark_inputs_exact": true,
+  "source_inner_split_exact": true,
+  "CPU_models_retrained": 18,
+  "GPU_models_retrained": 6,
+  "maximum_prediction_errors": {
+    "rocket": 2.399999999846969e-07,
+    "tempcnn": 0.0
+  },
+  "all_classes_match": true,
+  "all_seeds_included": true,
+  "threshold": 0.5
+}

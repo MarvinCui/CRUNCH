@@ -1,0 +1,21 @@
+{
+  "model": "CRUNCH",
+  "checksummed_files": 50,
+  "train_field_years": 599,
+  "test_field_years": 44,
+  "physical_fields_disjoint": true,
+  "maximum_saved_prediction_error": 3.885780586188048e-16,
+  "n": 44,
+  "grain_n": 32,
+  "silage_n": 12,
+  "macro_f1": 0.9393939393939394,
+  "balanced_accuracy": 0.9166666666666667,
+  "silage_f1": 0.9090909090909091,
+  "accuracy": 0.9545454545454546,
+  "auc": 0.953125,
+  "grain_to_silage": 0,
+  "silage_to_grain": 2,
+  "retrained_from_raw_train_data": true,
+  "maximum_refit_prediction_error": 7.771561172376096e-16,
+  "refit_predictions_and_routes_match": true
+}

@@ -1,0 +1,11 @@
+{
+  "torch": "2.11.0+cu128",
+  "cuda": "12.8",
+  "gpu": "NVIDIA RTX PRO 6000 Blackwell Workstation Edition",
+  "python": "3.10.20",
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "cudnn_allow_tf32": false,
+  "matmul_allow_tf32": false,
+  "deterministic_algorithms": true
+}

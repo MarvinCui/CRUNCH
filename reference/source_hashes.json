@@ -1,0 +1,8 @@
+{
+  "handoffs/Harvest-LeaveMD-Original-Harmonic2/model.joblib": "8cb7b7ba08e03e63a972f794dd63031f698b131910dcd4ceab772de11d8b6d42",
+  "handoffs/Harvest-LeaveMD-Original-Harmonic2/predict.py": "7028f77ae263bc95f3a603033f8d0176980ab14deb2ac7d2b4a89e6698d70c94",
+  "handoffs/Harvest-LeaveMD-Original-Harmonic2/original_core.py": "072438f10d3a3a77476972dd8fca2573efb963642c54e983c551a441623423c1",
+  "handoffs/Harvest-LeaveMD-Original-Harmonic2/event_features.py": "ded42166bf53bd9ccb1dc5d7d4ff06718e3dca4be682e388fe58bd9e9b8af83f",
+  "Hack-the-Harvest-Agent-Handoff/output/multiregion/optical_observations.csv": "d5fc23b28e009e983f3fc1e9bc110f14df39ef848871f9d354c505e823ef3521",
+  "Hack-the-Harvest-Agent-Handoff/output/multiregion/field_inventory.csv": "c5e7327378e1bbecd76688e316eeb36d286ba2e7761350426b46b4cb6a646c96"
+}

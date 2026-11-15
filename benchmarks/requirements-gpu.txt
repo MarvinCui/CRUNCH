@@ -1,0 +1,5 @@
+# Tested with Python 3.10.20 and the PyTorch CUDA 12.8 build on RTX PRO 6000.
+# Install the appropriate official CUDA wheel for your allocated GPU environment.
+torch==2.11.0
+numpy==2.2.6
+pandas==2.3.3

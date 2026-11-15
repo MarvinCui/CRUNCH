@@ -1,0 +1,83 @@
+{
+  "model": "CRUNCH",
+  "split": "held_out_MD",
+  "default_model": "models/crunch.joblib",
+  "training_count": 599,
+  "training_region": "US-WA",
+  "training_classes": {
+    "grain": 37,
+    "silage": 562
+  },
+  "validation_count": 44,
+  "validation_region": "US-MD",
+  "validation_classes": {
+    "grain": 32,
+    "silage": 12
+  },
+  "includes_MD_training": false,
+  "includes_NL_training": false,
+  "harmonic_order": 2,
+  "period_days": 365.25,
+  "harmonic_ridge_alpha": 0.01,
+  "classifier_C": 0.3,
+  "threshold": 0.5,
+  "event_dimensions": 24,
+  "peak_aligned_dimensions": 33,
+  "branch_training_counts": {
+    "event": 353,
+    "peak_aligned": 599
+  },
+  "source_model_sha256": "e7a8bdd6ac85b40efbdc6b534348a43a7add422f1598649ab08524997803fff2",
+  "selection": "User-selected fixed H2 version; not external/NL-validation-selected K3 model",
+  "expected_MD": {
+    "macro_f1": 0.9393939393939394,
+    "balanced_accuracy": 0.9166666666666667,
+    "correct": 42,
+    "total": 44
+  },
+  "original_method_ownership": "The original dual-branch baseline also belongs to the user team",
+  "full_name": "Corn End-Use Recognition Using Normalized Indices, Change Points, and Harmonics",
+  "authors": [
+    "TIANYANG LIU",
+    "BORAN CUI"
+  ],
+  "version": "1.0.0",
+  "model_path": "models/crunch.joblib",
+  "license": "MIT (team code and weights; see DATA_LICENSE.md for data)",
+  "legacy_checkpoint_sha256": "8cb7b7ba08e03e63a972f794dd63031f698b131910dcd4ceab772de11d8b6d42",
+  "checkpoint_parameters": "Unchanged; only model name and release metadata updated",
+  "datasets": {
+    "train": {
+      "field_years": 599,
+      "physical_fields": 599,
+      "label_counts": {
+        "silage": 562,
+        "grain": 37
+      },
+      "observation_rows": 5066,
+      "years": [
+        2015
+      ],
+      "regions": [
+        "US-WA"
+      ]
+    },
+    "test": {
+      "field_years": 44,
+      "physical_fields": 34,
+      "label_counts": {
+        "grain": 32,
+        "silage": 12
+      },
+      "observation_rows": 1774,
+      "years": [
+        2021,
+        2022,
+        2023
+      ],
+      "regions": [
+        "US-MD"
+      ]
+    }
+  }
+}
