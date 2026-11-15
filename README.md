@@ -31,7 +31,7 @@ python evaluate.py --model outputs/crunch_retrained.joblib --output outputs/retr
 OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python verify.py --retrain
 ```
 
-The release fixes harmonic order **2**, harmonic ridge **α = 0.01**, classifier **C = 0.3**, and decision threshold **0.5**. Training does not read the test set. No Dutch/NL data or NL-selected threshold is used by the released CRUNCH model.
+The release fixes harmonic order **2**, harmonic ridge **α = 0.01**, classifier **C = 0.3**, and decision threshold **0.5**. 
 
 ## Data and results
 
