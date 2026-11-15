@@ -100,10 +100,4 @@ CITATION.cff                 Citation metadata
 LICENSE / DATA_LICENSE.md   MIT license and separate upstream data status
 ```
 
-## License and attribution
-
-The team's implementation, documentation and CRUNCH model weights are released under the [MIT License](LICENSE), copyright **2026 TIANYANG LIU and BORAN CUI**. The included third-party-derived datasets retain their upstream terms and attribution; they are **not newly relicensed under MIT**. See [DATA_LICENSE.md](DATA_LICENSE.md) and [NOTICE.md](NOTICE.md). The source materials do not establish a blanket redistribution license for every included label source; this package records that unresolved status rather than claiming it has been cleared.
-
-## Citation and contributions
-
-Use [CITATION.cff](CITATION.cff) to cite this software release. No paper DOI or repository URL is invented. To contribute, follow [CONTRIBUTING.md](CONTRIBUTING.md); retain the frozen split and report both classes' performance. [中文说明](README_zh.md).
+[中文说明](README_zh.md).
